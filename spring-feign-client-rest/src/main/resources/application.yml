@@ -1,0 +1,15 @@
+
+# spring:
+#   cloud:
+#     openfeign:
+#       client:
+#         config:
+#           loggerLevel: full
+
+app:
+  client:
+    pais:
+      url: http://localhost:8080
+logging:
+  level:
+    '[br.com.rodrigoaralmeida]': debug
